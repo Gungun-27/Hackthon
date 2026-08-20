@@ -1,0 +1,30 @@
+# Node & Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist
+build
+.output
+
+# Database
+data/*.db
+data/*.db-wal
+data/*.db-shm
+
+# Uploads
+server/uploads/*
+!server/uploads/.gitkeep
+
+# IDE & OS
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+*.log
